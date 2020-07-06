@@ -19,7 +19,6 @@ h1 {
   width: 100%;
 }
 
-
 .logo {
   padding: 0;
   padding-top: 50px;
@@ -47,13 +46,14 @@ p {
   width: 100%;
   transition: .3s ease;
 }
-.content button:hover{
-  transform: translateY(-4px);
-  -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.4);
--moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.4);
-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.4);
 
+.content button:hover {
+  transform: translateY(-4px);
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.4);
 }
+
 .social-media {
   display: flex;
   justify-content: center;
@@ -73,14 +73,14 @@ box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.4);
   margin: 0 .5rem;
   transition: .3s ease;
 }
-.icon:hover {
-  -webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.17);
-  -moz-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.17);
-  box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.17);
-background: #fff;
-color:hsl(257, 40%, 49%);
-transform: scale(1.1);
 
+.icon:hover {
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.17);
+  background: #fff;
+  color: hsl(257, 40%, 49%);
+  transform: scale(1.1);
 }
 
 @media (min-width:770px) {
@@ -131,7 +131,6 @@ transform: scale(1.1);
     max-width: 40%;
     align-self: center;
     padding-left: 5%;
-
     padding-top: 15%;
   }
 
@@ -141,7 +140,5 @@ transform: scale(1.1);
 
   .social-media {
     justify-content: flex-end;
-
-
   }
 }
